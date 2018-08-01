@@ -1,16 +1,22 @@
 <template>
-  <div class="home">
-    <section>
-
-    </section>
-  </div>
+<div class="body">
+  <List/>
+</div>
 </template>
 
 <script>
 // @ is an alias to /src
+import List from '@/components/List.vue'
 
 export default {
-  name: 'home',
-  components: {}
+  name: 'Home',
+  data: () => ({}),
+  components: {
+    List
+  }
 }
 </script>
+
+<style scoped>
+
+</style>
