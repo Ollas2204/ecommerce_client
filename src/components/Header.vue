@@ -55,13 +55,10 @@ export default {
 .md-menu {
   margin-right: 24px
 }
-
 .room {
   display: block;
   background-color: lightgrey;
   min-height: 100%;
   padding-bottom: 180px;
 }
-
-
 </style>

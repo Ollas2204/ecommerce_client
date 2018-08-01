@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-// import Signup from './views/Signup.vue'
-// import Signin from './views/Signin.vue'
+import Signup from './views/Signup.vue'
+import Signin from './views/Signin.vue'
 
 Vue.use(Router)
 var routes = new Router({
